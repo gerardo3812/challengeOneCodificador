@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 100px;
+}
+main{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(213, 30, 30); */
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    background-color: #E5E5E5;
+    min-height: 100%;
+}
+section{
+    width: 40%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+.seccion1{
+    width: 60%;
+}
+.seccion2{
+    width: 35%;
+    height: 90%;
+    background-color: white;
+    border-radius: 24px; 
+    margin-right: 20px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.contenedor-muneco{
+      width: 100%;
+      height: 50%;
+      text-align: center;
+      padding-top: 80;
+}
+.contenedor-h3{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+.contenedor-texto{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+.area-texto{
+    width: 90%;
+    height: 60%;
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    resize: none;  
+    font-size: 24px;
+    background-color: #E5E5E5;
+    border: 1px solid #E5E5E5;
+}
+
+.btn-encriptar, .btn-desencriptar,.btn-copiar{
+    width: 200px;
+    height: 67px;
+    text-align: center;
+    border-radius: 24px;   
+    border: 1px solid #0A3871;
+}
+
+.btn-encriptar{
+    background-color: darkblue;
+    font-size: 16px;
+    color: white;
+}
+.btn-desencriptar{
+    background-color:#D8DFE8;
+    font-size: 16px;
+    color: darkblue;
+}
+.contenedor-botones{
+text-align: center;
+margin-top: 2%;    
+}
+.contenedor-resultado{
+    width: 100%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial;
+    word-break: break-all;
+}
+.contenedor-copiar{
+    width: 100%;
+    height: 20%;
+}
+.btn-copiar{
+    width: 35%;
+    height: 40px;
+    display: block;
+    margin: auto;
+    margin-top: 50%;
+    word-break: break-all;
+    font-size: 16px;
+    color: darkblue;
+}
+.btn-desencriptar:hover{ 
+        background: blue; 
+        color: white;
+}
+.btn-encriptar:hover{ 
+    background: blue; 
+    color: white;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 16px;
+    background-color: aqua;
+}
+.texto-recuperado{
+    /* width: 100px; */
+    height: auto;
+    font-size: 26px;
+    font-family: Arial;
+    text-align: justify;
+    word-break: break-all;
+    padding: 13px;/*se aleja del marco de arriba */
+}
+.alertaminusculas{
+    
+    display:block; 
+    padding-bottom: 1%;
+    padding-right: 20%;
+    font-size: 18px;
+    margin-top: 1%;
+    box-sizing: border-box; 
+    color: #495057;
+}
+/* .vector{
+    margin-left: 5%;
+    margin-top: 1%
+} */
+.ocultar{
+    display: none;
+}
