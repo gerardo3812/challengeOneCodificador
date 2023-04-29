@@ -5,6 +5,7 @@
 header{
     width: 100%;
     height: 100px;
+    margin-top: 1%;
 }
 main{
     width: 100%;
@@ -127,8 +128,12 @@ footer{
     font-size: 16px;
     background-color: #E5E5E5;
 }
+.contenedor-datosPersonales{
+  display:inline;
+  color: #495057;
+}
 .texto-recuperado{
-    /* width: 100px; */
+    /* width: 100px;  background-color: #E5E5E5;*/
     height: auto;
     font-size: 26px;
     font-family: Arial;
@@ -146,6 +151,7 @@ footer{
     color: #495057;
 }
 /* .vector{
+    #495057;
     margin-left: 5%;
     margin-top: 1%
 } */
