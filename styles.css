@@ -8,7 +8,7 @@ header{
     margin-top: 1%;
 }
 main{
-    width: 100%;
+    width:100%;
     height: 100%;
     /* background-color: rgb(213, 30, 30); */
     display: flex;
@@ -19,10 +19,9 @@ body{
     background-color: #E5E5E5;
     min-height: 100%;
 }
-section{
+.section{
     width: 40%;
-    height: 100%;
-    /* background-color: blueviolet; */
+    height: 50%;
 }
 .seccion1{
     width: 60%;
@@ -30,22 +29,28 @@ section{
 .seccion2{
     width: 35%;
     height: 90%;
-    background-color: white;
     border-radius: 24px; 
     margin-right: 20px;
     margin-top: 10px;
     box-sizing: border-box;
     overflow: hidden;
+    
 }
 
 .contenedor-muneco{
       width: 100%;
-      height: 50%;
+      height: 60%;
       text-align: center;
       padding-top: 80;
       object-fit: cover;
-     
+      
     }
+    .muneco{
+       width: 100%;
+       height: auto;
+       display:block;max-width:100%;height:auto; 
+    }
+   
 .contenedor-h3{
     width: 100%;
     height: 20%;
@@ -123,13 +128,15 @@ margin-top: 2%;
 }
 footer{
     width: 100%;
-    height: 100px;
+    height: auto;
     text-align: center;
     font-size: 16px;
     background-color: #E5E5E5;
 }
 .contenedor-datosPersonales{
-  display:inline;
+  width: 100%;
+  height: auto;
+    display:inline;
   color: #495057;
 }
 .texto-recuperado{
@@ -157,4 +164,25 @@ footer{
 } */
 .ocultar{
     display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .seccion1{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    .seccion2{
+      width: 100%;
+      height: 100%;
+      position:absolute;
+      top: 850px;
+    }
+    .piePagina{
+      width: 100%;
+      height: auto;
+      top: 750px;
+      position: relative;
+    }
+    
 }
